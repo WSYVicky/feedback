@@ -10,7 +10,7 @@
 
 2. ### 项目结构
 
-   ![项目结构](/Users/vicky/feedback/项目结构.png)
+   ![项目结构](/feedback/项目结构.png)
 
 3. ### 实现功能
 
