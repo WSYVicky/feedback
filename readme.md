@@ -9,9 +9,8 @@
    - ### bootstrap
 
 2. ### 项目结构
-
-   ![项目结构](/feedback/项目结构.png)
-
+![](/Users/vicky/feedback/项目结构.png)
+  
 3. ### 实现功能
 
    - ### 评论页评论后跳转到首页
