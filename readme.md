@@ -10,21 +10,7 @@
 
 2. ### 项目结构
 
-   ├── app.js
-   ├── node_modules
-   ├── public
-   │   ├── css
-   │   │   └── main.css
-   │   ├── img
-   │   │   └── ab3.jpg
-   │   ├── js
-   │   │   └── main.js
-   │   └── lib
-   ├── readme.md
-   └── views
-       ├── 404.html
-       ├── index.html
-       └── post.html
+   ![项目结构](/Users/vicky/feedback/项目结构.png)
 
 3. ### 实现功能
 
