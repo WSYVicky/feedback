@@ -9,7 +9,7 @@
    - ### bootstrap
 
 2. ### 项目结构
-![](/Users/vicky/feedback/项目结构.png)
+![](/feedback/项目结构.png)
   
 3. ### 实现功能
 
