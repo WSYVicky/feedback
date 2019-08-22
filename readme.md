@@ -1,5 +1,11 @@
 # 留言本(http模块创建的服务器)
 
+## 启动
+### 1.命令行
+```node app.js```
+### 2.浏览器
+localhost:3000/students
+
 1. ### 技术栈
 
    - ### Node
