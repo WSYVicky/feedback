@@ -1,8 +1,10 @@
+//(1)引入模块
 var http = require('http')
 var fs = require('fs')
 var url = require('url')
 var template = require('art-template')
 
+//(2)写数据
 var comments = [
   {
     name: '张三',
@@ -31,11 +33,15 @@ var comments = [
   }
 ]
 
+//（3）创建web服务器
 http.
     createServer(function(req,res){
+      //（4）路径转为对象
       var parseObj = url.parse(req.url,true)
+      //（5）获取URL中？之后的内容
       var pathname = parseObj.pathname
 
+      //（6）路径判断
       if(pathname === '/'){
         fs.readFile('./views/index.html',function(err,data){
           if(err){
@@ -53,6 +59,7 @@ http.
           }
           res.end(data)
         })
+        // 统一处理请求路径以/public/开头的
       }else if(pathname.indexOf('/public/') === 0){
         fs.readFile('.'+pathname,function(err,data){
           if(err){
